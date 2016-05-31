@@ -1,0 +1,169 @@
+body{
+	background-color: #242424;
+ }
+
+ .main {
+ 	width: 70%;
+ 	background: #505050;  
+ 	margin: 0 auto; 
+    position: relative;  
+
+ }
+
+ .row{
+ 	width: 150%;
+    margin: 0 auto; 
+    position: relative; 
+
+ }
+ .lem{
+ 	position: relative;
+    left: 620px;
+ }
+.video iframe {
+	position: relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box {
+	background: #161616; 
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+
+	 width: 45%;
+ 	margin: 0 auto; 
+
+}
+.box2 {
+    background: #161616; 
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+     width: 45%;
+    margin: 0 auto; 
+
+}
+.box3 {
+    background: #161616; 
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+
+     width: 53.8%;
+    margin: 0 auto; 
+
+}
+.boxxy {
+	
+	background: #242424;
+	padding-top: 24px;
+
+	 width: 45%;
+ 	margin: 0 auto; 
+    position: relative;  
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+.lemdd {
+    position: relative;
+
+    padding-top: 30px; overflow: hidden;
+}
+ 
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.asdf{
+margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+* { margin: 0; padding: 0;}
+
+.containertwo {
+    width: 100%;
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.layer div {position: absolute;}
+.trees1 {top: 50px; left: 0px;}
+.trees2 {top: 50px; left: 0px;}
+.trees3 {top: 50px; left: 0px;}
+
+/* navbar */
+.navbar-wrapper {
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 20;
+}
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+.carousel {
+    height: 576px;
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+
+.carousel .item {
+    height: 576px;
+    background-color: #202020;
+    text-align: center;
+}
+
+
+.section2 .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section2 h2 {
+    font-weight: normal;
+}
+
+.section2 .col-lg-4 p {
+    margin-right: 0px;
+    margin-left: 0px;
+}
