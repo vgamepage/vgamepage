@@ -51,13 +51,13 @@
 <a href="http://store.steampowered.com/"><img src="images/steam.png" class="img-responsive center-block"></a>
 	<section class="containertwo">
 		<ul id="scene" class="scene"> <!-- Inicia la e scena -->
-			<li class="layer" data-depth="0.90">
+			<li class="layer" data-depth="0.30">
 				<div class="trees1"><img src="images/trees3.png"></div>
 			</li>
 			<li class="layer" data-depth="0.60">
 				<div class="trees2"><img src="images/trees2.png"></div>
 			</li>
-			<li class="layer" data-depth="0.30">
+			<li class="layer" data-depth="0.90">
 				<div class="trees3"><img src="images/trees1.png"></div>
 			</li>
 
@@ -67,4 +67,9 @@
 </body>
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/jquery.parallax.min.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $('#scene').parallax();
+  });
+</script>
 </html>
